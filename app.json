@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "afc_mobile_operations",
+    "slug": "afcmobileoperations",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/afclogo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/afclogo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.msauthapp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.yourcompany.msauthapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": "msauthapp",
+    "extra": {
+      "eas": {
+        "projectId": "b84a7f60-e980-4e5f-aade-7ed21e1a5b05"
+      }
+    }
+  }
+}
